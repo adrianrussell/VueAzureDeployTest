@@ -8,4 +8,4 @@ WRITE-HOST "npm Version"
 & npm run build
 
 
-Compress-Archive .\dist .\deploy-package.zip
+Compress-Archive .\dist\* .\deploy-package.zip
