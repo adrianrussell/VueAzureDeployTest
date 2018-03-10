@@ -6,3 +6,6 @@ WRITE-HOST "npm Version"
 
 & npm install
 & npm run build
+
+
+Compress-Archive .\dist .\deploy-package.zip
